@@ -1,0 +1,54 @@
+body {
+    font-family: 'Open Sans';/*Changes font to Open Sans*/
+    background-color: #19042a;/*sets body background color*/
+    margin-bottom: 1.4em;/*sets thickness of the margin area for bottom*/
+    margin-left: 1em;/*sets thickness of the margin area for left*/
+    margin-right: 1em;/*sets thickness of the margin area for right*/
+    color: whitesmoke;/*changes body foreground color*/
+}
+main {
+    background-color: #372a41;/*sets background color for element*/
+    text-align: center;/*centers text*/
+}
+header {
+    height: 8em;/*specifies height for content area*/
+    text-align: center;
+    color: skyblue;
+}
+section {
+    min-height: 20em;
+    text-align: center;
+}
+ul {
+    list-style-type: none;/*used to construct contents of list */
+    margin: 0;
+    padding: 0;/*adds thickness of padding area*/
+}
+table, th, td {
+    border: 1px solid black;/*sets border width, style and color*/
+    margin-left:auto;
+    margin-right:auto;
+    color: yellow;
+}
+footer {
+    text-align: center;
+    min-height: 1.5em;/*adds height constraint*/
+    color: skyblue;
+}
+#logo1 {
+    width: 80%;/*specifies width of image logo1*/
+    margin-left: 7em;
+    margin-right: auto;
+}
+#logo2 {
+    width: 60%;/*specifies width of image logo2*/
+}
+h2, h3, h4 {
+    color: skyblue;/*sets specific color for elements*/
+}
+#twitchsub {
+    color: yellow;
+}
+#greeting {
+    color: yellow;
+}
